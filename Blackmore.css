@@ -1,0 +1,290 @@
+
+body{
+	background-color: black;
+	font-family: 'Libre Baskerville', serif;
+	font-variant: small-caps;
+	font-weight: bold !important;
+}
+
+#main{
+	float: left;
+}
+
+#mainText{
+	float: right;
+	width: 629px;
+	padding:20px;
+	padding-left:0;
+	text-align: justify;
+	color: #1a1a1b;
+}
+#mainText2{
+	text-align: left;
+	color: #1a1a1b;
+}
+#mainText2 p{
+	font-size: 17px;
+}
+
+#about{
+	float: right;
+	padding-left: 20px;
+}
+
+#aboutText h2{
+	width: 630px;
+	float: left;
+	padding-top: 20px;
+	text-align: center;
+	color: #1a1a1b;
+}
+
+#aboutText p{
+	width: 630px;
+	float: left;
+	padding-left: 20px;
+	text-align: justify;
+	color: #1a1a1b;
+}
+
+.con{
+	margin: 20px auto;
+	background-color: #1a1a1b;
+	color: grey;
+	border: 1px solid white;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#aboutContactBtn{
+	margin-left: 201px;
+	margin-top:20px;
+	background-color: #1a1a1b;
+	color: grey;
+	border: 1px solid white;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#mainContactBtn{
+	margin-left: 179px;
+	margin-top: 20px;
+	background-color: #1a1a1b;
+	color: grey;
+	border: 1px solid white;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#aboutContactBtn:hover{
+	color: white;
+}
+#mainContactBtn:hover{
+	color: white;
+}
+
+.container .jumbotron{
+	border-radius:0;
+	padding: 0px;
+	background-color: grey;
+	border: 1px solid #ececec;
+}
+
+.title{
+	padding: 10px;
+}
+
+.navbar-inverse{
+	background-color:#1a1a1b; 
+	border-radius: 0;
+	border-bottom: 1px solid white;
+}
+
+.bar{
+	letter-spacing: 1.5px;
+	font-size: 17px;
+	color: #808080;
+}
+
+.bar:hover{
+	background-color: grey;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+	background-color: grey;
+}
+
+#title{
+	background-color: grey;
+}
+
+.dropdown-menu{
+	background-color: #1a1a1b;
+	border-radius: 0;
+	border: 1px solid #1a1a1b;
+	color: grey;
+	border-top: 1px solid white;
+}
+
+.dropdown-menu>li>a{
+	color: grey;
+}
+
+.dropdown-menu>li>a:hover{
+	background-color:grey;
+	color: white;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background-color: #1a1a1b;
+	color: grey;
+}
+
+.thumbnail{
+	background-color: grey;
+	color: #1a1a1b;
+	border-radius: 0;
+	border: 1px solid #ececec;
+}
+
+#map {
+   width: 400px;
+   height: 300px;
+   background-color: grey;
+   padding-top: 20px;
+   float: right;
+}
+
+#contactText{
+	width: 540px;
+	padding-left: 20px;
+	text-align: left;
+	color: #1a1a1b;
+}
+
+.col-lg-6{
+	padding:0px;
+}
+
+#message{
+	width: 90%;
+	height: 180px;
+}
+
+#form{
+	width: 800px;
+}
+
+input{
+	margin:0px 10px 17px 10px;
+	width: 80%;
+}
+
+#formsubmit{
+	margin-bottom: 0px;
+	margin-left: 42px;
+	background-color: #1a1a1b;
+	color: grey;
+	border: 1px solid white;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: bold;
+}
+#formsubmit:hover{
+	color: white;
+}
+
+#contactpanel{
+	width:800px;
+}
+
+.corpText{
+	color: #1a1a1b;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+.corpText li{
+	padding-right: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	font-size: 17px;
+}
+.corpText h1{
+	text-align: center;
+	color: #1a1a1b;
+}
+.corpText h2{
+	text-align: center;
+	color: #1a1a1b;
+}
+
+.corpText2{
+	height: 570px;
+	width: 390px;
+}
+.row{
+	width: 1200px;
+	margin: 0;
+}
+.personalText h1{
+	text-align: center;
+	color: #1a1a1b;
+}
+.personalText h2{
+	margin-left: 20px;
+	text-align: center;
+	color: #1a1a1b;
+/*	text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+}
+.personalText li{
+	text-align: left;
+	font-size: 17px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.personalText p{
+	text-align: justify;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.personalText2{
+	height: 400px;
+	width: 390px;
+}
+
+
+h2{
+	color: #1a1a1b;
+}
+
+.servicesbtn{
+	margin-bottom: 0px;
+	margin-top: 50px;
+	background-color: #1a1a1b;
+	color: grey;
+	border: 1px solid white;
+	height: 50px;
+	width: 250px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.servicesbtn:hover{
+	color: white;
+}
+#personalbtn2{
+	margin-top:98px;
+}
+#mainText2 .corpimg{
+	padding-left: 0;
+}
+.social{
+	padding: 20px 10px;
+}
+.containerWide{
+	width: 1170px;
+	padding: 0;
+}
